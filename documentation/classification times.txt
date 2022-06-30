@@ -1,0 +1,17 @@
+vdSchoot:
+EN + EN_XX for tfidf + doc2vec: 08/06/2022 0:13:58.17, finished: 08/06/2022 3:29:13.09  (60 + 60 sets)
+EN + EN_XX for sbert_pre: started: 08/06/2022 17:07:39.04, finished: 08/06/2022 17:50:40.91 (4 sets)
+EN + EN_XX for sbert_post: started: 08/06/2022 18:19:04.13, finished: 08/06/2022 22:41:09.07 (60 sets)
+EN_XX_EN for tfidf + doc2vec + sbert_post: started: 12/06/2022 14:51:55.64, finished: 12/06/2022 18:51:53.67 (45 + 45 + 45 sets)
+
+5 others:
+EN + EN_XX + EN_XX_EN for sbert_pre:started: 19/06/2022 16:29:50.95, finished: 19/06/2022 19:44:17.03 (20 sets)
+
+Hall_2020
+EN + EN_XX + EN_XX_EN for tfidf + doc2vec + sbert_post: started: 21/06/2022  8:33:28.09, finished: 22/06/2022  1:48:27.70
+
+Kwok:
+EN + EN_XX + EN_XX_EN for tfidf + doc2vec + sbert_post + fasttext: started: 24/06/2022  8:21:39.81, finished: 24/06/2022 16:45:54.76
+
+Nagtegaal:
+EN + EN_XX + EN_XX_EN for tfidf + doc2vec + sbert_post + fasttext: started: 25/06/2022  7:38:11.50, finished: 25/06/2022 13:26:14.15
