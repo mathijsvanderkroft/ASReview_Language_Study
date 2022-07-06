@@ -1,6 +1,6 @@
 # ASReview_Language_Study
 A study of the significance of language morphology in active learning aided systematic reviews using ASReview
-A link to the thesis report will be added soon
+A link to the study report will be added soon here
 To reproduce the study, perform the following steps:
 
 1. pull the repository
@@ -12,12 +12,16 @@ pip install .
 4. run batch_builder.py and check if the created simulation_batch.bat file is how you expected it
 5. run simulation_batch.bat in your command prompt
 6. change the options in calculate_metrics.py to match the batch(es) you ran
-7. run calculate_metrics.py to create a table of WSS, RRF and ATD metrics
-8. run visualise_metrics.py to create the recall curves
+7. run calculate_metrics.py to create a table of WSS, RRF and ATD metrics (metrics_analysis.csv)
+8. run visualise_metrics.py to create the recall curves in figures/
 9. run ATD_plot.Rmd to create the ATD comparison plots
 
 Vocabulary size and sparse words of all datasets can be calculated with vocabulary_size.py
 
 Running repeated multilingual sbert simulations can take a long time. To run the feature extraction only once per setup, follow the instructions in batch_builder.py
+
+Original English datasets are saved under datasets/EN
+Translated datasets are saved under datasets/EN_XX
+Datasets translated from EN_XX back to English are saved under datasets/EN_XX_EN
 
 
