@@ -1,5 +1,6 @@
 # ASReview_Language_Study
 A study of the significance of language morphology in active learning aided systematic reviews using ASReview
+A link to the thesis report will be added soon
 To reproduce the study, perform the following steps:
 
 1. pull the repository
